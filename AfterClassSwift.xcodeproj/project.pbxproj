@@ -14,6 +14,8 @@
 		DA9AC8931AB7363B004643DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9AC8921AB7363B004643DC /* Images.xcassets */; };
 		DA9AC8961AB7363B004643DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9AC8941AB7363B004643DC /* LaunchScreen.xib */; };
 		DA9AC8A21AB7363B004643DC /* AfterClassSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9AC8A11AB7363B004643DC /* AfterClassSwiftTests.swift */; };
+		DA9AC8AC1AB745BE004643DC /* SingleEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9AC8AB1AB745BE004643DC /* SingleEventViewController.swift */; };
+		DA9AC8AE1AB879E8004643DC /* Custom.js in Resources */ = {isa = PBXBuildFile; fileRef = DA9AC8AD1AB879E8004643DC /* Custom.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		DA9AC89B1AB7363B004643DC /* AfterClassSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfterClassSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9AC8A01AB7363B004643DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA9AC8A11AB7363B004643DC /* AfterClassSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterClassSwiftTests.swift; sourceTree = "<group>"; };
+		DA9AC8AB1AB745BE004643DC /* SingleEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleEventViewController.swift; sourceTree = "<group>"; };
+		DA9AC8AD1AB879E8004643DC /* Custom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Custom.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +85,10 @@
 			children = (
 				DA9AC8891AB7363B004643DC /* AppDelegate.swift */,
 				DA9AC88B1AB7363B004643DC /* FirstViewController.swift */,
+				DA9AC8AD1AB879E8004643DC /* Custom.js */,
 				DA9AC88D1AB7363B004643DC /* SecondViewController.swift */,
 				DA9AC88F1AB7363B004643DC /* Main.storyboard */,
+				DA9AC8AB1AB745BE004643DC /* SingleEventViewController.swift */,
 				DA9AC8921AB7363B004643DC /* Images.xcassets */,
 				DA9AC8941AB7363B004643DC /* LaunchScreen.xib */,
 				DA9AC8871AB7363B004643DC /* Supporting Files */,
@@ -198,6 +204,7 @@
 				DA9AC8911AB7363B004643DC /* Main.storyboard in Resources */,
 				DA9AC8961AB7363B004643DC /* LaunchScreen.xib in Resources */,
 				DA9AC8931AB7363B004643DC /* Images.xcassets in Resources */,
+				DA9AC8AE1AB879E8004643DC /* Custom.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9AC88E1AB7363B004643DC /* SecondViewController.swift in Sources */,
+				DA9AC8AC1AB745BE004643DC /* SingleEventViewController.swift in Sources */,
 				DA9AC88A1AB7363B004643DC /* AppDelegate.swift in Sources */,
 				DA9AC88C1AB7363B004643DC /* FirstViewController.swift in Sources */,
 			);
